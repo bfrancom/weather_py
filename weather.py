@@ -6,7 +6,7 @@ result = req.json()
 
 summary = result['currently']['summary']
 temperature = result['currently']['temperature']
-print(summary,"  ",temperature,"°F",sep='')
+print(summary," ",temperature,"°F",sep='')
 #if summary == 'Clear':
 #	print(summary,"  ",temperature,"°F",sep='')
 #else:
