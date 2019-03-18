@@ -7,6 +7,9 @@ result = req.json()
 summary = result['currently']['summary']
 temperature = result['currently']['temperature']
 print(summary," ",temperature,"°F",sep='')
+
+#Can use FontAwesome fonts for pretty icons
+#https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself
 #if summary == 'Clear':
 #	print(summary,"  ",temperature,"°F",sep='')
 #else:
